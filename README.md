@@ -27,6 +27,6 @@ source devel/setup.bash
 
 $ roslaunch temizlik_robotu_baslat temizlik_robotu_baslat.launch
 
-Görev tamamlamam yüzdesini görmek için
+Görev tamamlama yüzdesini görmek için
 
 $ roslaunch temizlik_robotu_bilgi_servisi temizlik_robotu_bilgi_servisi_baslat.launch
