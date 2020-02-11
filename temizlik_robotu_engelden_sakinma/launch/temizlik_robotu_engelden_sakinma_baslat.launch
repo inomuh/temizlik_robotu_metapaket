@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+	
+	<node pkg="temizlik_robotu_engelden_sakinma" type="temizlik_robotu_engelden_sakinma_dugumu.py" name="temizlik_robotu_engelden_sakinma_dugumu" output="screen" >
+		<rosparam file="$(find temizlik_robotu_engelden_sakinma)/params/parametreler.yaml" command="load"/>
+	</node>
+	
+</launch>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <include file="$(find evarobotmove_gazebo)/launch/temizlik_robotu.launch" />
+    <include file="$(find temizlik_robotu_viz)/launch/temizlik_robotu_rviz_baslat.launch" />
+    <include file="$(find temizlik_robotu_mesafe_hesaplama)/launch/temizlik_robotu_mesafe_hesaplama_baslat.launch" />
+    <include file="$(find temizlik_robotu_engelden_sakinma)/launch/temizlik_robotu_engelden_sakinma_baslat.launch" />
+    <include file="$(find temizlik_robotu_supurme)/launch/temizlik_robotu_supurme_baslat.launch" />
+
+</launch>

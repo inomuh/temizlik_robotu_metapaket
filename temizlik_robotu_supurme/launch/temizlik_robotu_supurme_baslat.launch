@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+
+	<node pkg="temizlik_robotu_supurme" type="temizlik_robotu_supurme_dugumu.py" name="temizlik_robotu_supurme_dugumu" output="screen" >
+		<rosparam file="$(find temizlik_robotu_supurme)/params/parametreler.yaml" command="load"/>
+		<rosparam file="$(find temizlik_robotu_supurme)/params/gorevler.yaml" command="load"/>
+	</node>
+
+</launch>

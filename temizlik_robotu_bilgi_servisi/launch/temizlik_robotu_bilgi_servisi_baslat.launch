@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+	
+	<node pkg="temizlik_robotu_bilgi_servisi" type="temizlik_robotu_bilgi_servisi_dugumu.py" name="temizlik_robotu_bilgi_servisi_dugumu" output="screen" />
+	
+</launch>

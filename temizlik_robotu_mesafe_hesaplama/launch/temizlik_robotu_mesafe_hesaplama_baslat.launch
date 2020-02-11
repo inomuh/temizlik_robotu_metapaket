@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+
+	<node pkg="temizlik_robotu_mesafe_hesaplama" type="temizlik_robotu_mesafe_hesaplama_dugumu.py" name="temizlik_robotu_mesafe_hesaplama_dugumu" output="screen" />
+	
+</launch>

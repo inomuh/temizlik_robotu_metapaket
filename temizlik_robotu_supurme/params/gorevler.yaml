@@ -1,0 +1,48 @@
+Atanacak Gorevler:
+  Gorev_1:
+    Gidilecek Yol: 2
+    Bas Aci Derecesi: 0
+  
+  Gorev_2:
+    Gidilecek Yol: 5
+    Bas Aci Derecesi: 90
+
+  Gorev_3:
+    Gidilecek Yol: 1
+    Bas Aci Derecesi: 180
+
+  Gorev_4:
+    Gidilecek Yol: 5
+    Bas Aci Derecesi: 90
+
+  Gorev_5:
+    Gidilecek Yol: 1
+    Bas Aci Derecesi: 0
+
+  Gorev_6:
+    Gidilecek Yol: 5
+    Bas Aci Derecesi: 90
+
+  Gorev_7:
+    Gidilecek Yol: 1
+    Bas Aci Derecesi: 180
+
+  Gorev_8:
+    Gidilecek Yol: 5
+    Bas Aci Derecesi: 90
+
+  Gorev_9:
+    Gidilecek Yol: 1
+    Bas Aci Derecesi: 0
+
+  Gorev_10:
+    Gidilecek Yol: 5
+    Bas Aci Derecesi: 90
+
+  Gorev_11:
+    Gidilecek Yol: 1
+    Bas Aci Derecesi: 180
+
+  Gorev_12:
+    Gidilecek Yol: 5
+    Bas Aci Derecesi: 0

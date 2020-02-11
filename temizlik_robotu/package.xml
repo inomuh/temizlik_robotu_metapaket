@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <name>temizlik_robotu</name>
+  <version>0.0.0</version>
+  <description>The temizlik_robotu meta package</description>
+
+  <maintainer email="hakan.gencturk@inovasyonmuhendislik.com">Hakan GENCTURK</maintainer>
+
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
