@@ -86,7 +86,7 @@ class TemizlikRobotuEngeldenSakinma(object):
         self.onceki_robot_hareket_emir_durumu = True        
         self.robot_hareket_emir_degisim_kontrolu = False
 
-        self.engel_menzil_limit_degeri = rospy.get_param("~Parametreler/Engel Menzil Limit Degeri")
+        self.engel_menzil_limit_degeri = rospy.get_param("~Parametreler/engel_menzil_limit_degeri")
 
         self.ana_fonksiyon()
 

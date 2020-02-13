@@ -122,8 +122,8 @@ class TemizlikRobotuSupurme(object):
         self.tamamlanan_gorev_yuzde_degeri = 0
 
         self.robot_bas_aci = 0
-        self.robot_bas_aci_tolerans_degeri = rospy.get_param("~Parametreler/Bas Aci Referans Degeri")
-        self.acisal_referans_hizi = rospy.get_param("~Parametreler/Acisal Referans Hiz Degeri")
+        self.robot_bas_aci_tolerans_degeri = rospy.get_param("~Parametreler/bas_aci_referans_degeri")
+        self.acisal_referans_hizi = rospy.get_param("~Parametreler/acisal_referans_hiz_degeri")
 
         self.ana_fonksiyon()
 
@@ -195,12 +195,12 @@ class TemizlikRobotuSupurme(object):
     #______________________________________________________________________________________________
 
     def gorev_okuma_fonksiyonu(self):
-        okunan_gorevler_dosyasi = dict(rospy.get_param("~Atanacak Gorevler"))
+        okunan_gorevler_dosyasi = dict(rospy.get_param("~Atanacak_Gorevler"))
         gecici_gorev_listesi = list()
 
         for i in range(len(okunan_gorevler_dosyasi.keys())):
             anahtar = "Gorev_" + str(i + 1)
-            gecici_liste = [okunan_gorevler_dosyasi[str(anahtar)]["Gidilecek Yol"], okunan_gorevler_dosyasi[str(anahtar)]["Bas Aci Derecesi"]]
+            gecici_liste = [okunan_gorevler_dosyasi[str(anahtar)]["gidilecek_yol"], okunan_gorevler_dosyasi[str(anahtar)]["bas_aci_derecesi"]]
             gecici_gorev_listesi.append(gecici_liste)
 
         return gecici_gorev_listesi
