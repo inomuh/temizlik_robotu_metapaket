@@ -32,7 +32,7 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
-foreach(dir include msg srv)
+foreach(dir msg srv)
     install(DIRECTORY ${dir}/
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/${dir})
 endforeach()
