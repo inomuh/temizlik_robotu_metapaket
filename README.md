@@ -10,7 +10,7 @@ $ echo $ROS_DISTRO
 
 Ros Distroyu öğrendikten sonra interactive marker twist server indirmek gerekmektedir.
 
-$ sudo apt-get install ros-<rosdistro>-interactive-marker-twist-server
+$ sudo apt-get install ros-(rosdistro)-interactive-marker-twist-server
 
 Örneğin Ros Distro Kinetic için aşağıdaki komutu yazınız.
 
