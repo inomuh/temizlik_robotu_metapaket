@@ -3,6 +3,10 @@
 TEMIZLIK ROBOTU Metapackage
 
 
+İlk önce interactive marker twist server indirmek gerekmektedir. 
+
+$ sudo apt-get install ros-kinetic-interactive-marker-twist-server
+
 Workspace yok ise workspace oluşturunuz.
 
 Örn. http://wiki.ros.org/catkin/Tutorials/create_a_workspace
