@@ -3,7 +3,16 @@
 TEMIZLIK ROBOTU Metapackage
 
 
-İlk önce interactive marker twist server indirmek gerekmektedir. 
+
+Terminale aşağıdaki komutu yazarak Ros Distroyu öğrenebilirsiniz.
+
+$ echo $ROS_DISTRO 
+
+Ros Distroyu öğrendikten sonra interactive marker twist server indirmek gerekmektedir.
+
+$ sudo apt-get install ros-<rosdistro>-interactive-marker-twist-server
+
+Örneğin Ros Distro Kinetic için aşağıdaki komutu yazınız.
 
 $ sudo apt-get install ros-kinetic-interactive-marker-twist-server
 
